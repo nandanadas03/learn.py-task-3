@@ -1,0 +1,68 @@
+
+ 
+TASK 3
+
+1 - Write a program which takes a number as input from the user and check whether the number is odd or even.If odd print the number is odd if not print it is even.
+
+[ ]
+#please enter your answer below this line
+num=int(input ("enter any number"))
+Flag=num
+If Flag ==0;
+    Print (num,"is an even number:")
+elif Flag==1;
+    Print (num,"is an odd number")
+else:
+    Print ("error, invalid input")
+2 -Write a program to find the largest among three numbers and print the largest number.
+
+[ ]
+#please enter your answer below this line
+n1=first number
+n2=second number
+n3=third number
+
+n1=float (input ("enter first number:")
+n2=float (input ("enter second number:")
+n3=float (input ("enter third number:")
+
+if(n1>=n2)and(n1>=n3):
+largest=n1
+elif(n2>=n1)and(n2>=n3):
+largest=n2
+else:
+largest=n3
+    Print ("the largest number is", largest)
+3 -Write a function to prompt for a score between 0.0 and 1.0.
+
+If the score is out of range, print an error.
+If the score is between 0.0 and 1.0, print a grade using the following table:
+Score Grade
+         Score    Grade
+        >= 0.9    A
+        >= 0.8    B
+        >= 0.7    C
+        >= 0.6    D
+         < 0.6    F
+If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85.
+
+[ ]
+#please enter your answer below this li
+
+s =  float(score)
+x = 'Error'
+if s >= 0.9:   
+   x = 'A'
+elif s >=0.8:    
+     x='B'
+elif s >=0.7: 
+     x='C'
+elif s >= 0.6: 
+     x='D'
+elif s < .6:  
+     x ='F'
+else:
+ x ="Out of Range"
+    print (x)
+
+
